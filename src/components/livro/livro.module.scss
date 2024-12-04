@@ -1,0 +1,12 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 30px;
+    text-align: center;
+    border-radius: 15px;
+    border: 4px solid #005695;
+
+    figure {
+        margin: 16px 0;
+    }
+}
