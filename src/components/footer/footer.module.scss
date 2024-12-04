@@ -1,0 +1,27 @@
+.footer {
+    color: white;
+}
+
+.contato {
+    background-color: #005695;
+    padding: 15px 0;
+    text-align: center;
+    nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        ul {
+            display: flex;
+            list-style: none;
+            li {
+                padding: 0px 5px;
+            }
+        }
+    }
+}
+
+.copy {
+    background-color: #232020;
+    text-align: center;
+    padding: 10px;
+}

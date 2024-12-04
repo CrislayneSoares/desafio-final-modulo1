@@ -1,0 +1,39 @@
+.header {
+    background: rgb(0,27,47);
+    background: linear-gradient(90deg, rgba(0,27,47,1) 0%, rgba(0,86,149,1) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    h1 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+}
+
+.nav{
+    width: 100%;
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+
+        li {
+            padding: 2px 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
