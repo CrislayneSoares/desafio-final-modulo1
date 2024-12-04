@@ -28,5 +28,11 @@
 }
 
 .cards {
-    
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 14px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
