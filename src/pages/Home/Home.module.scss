@@ -1,0 +1,32 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #005695;
+
+    h2 {
+        margin: 20px 0;
+    }
+}
+
+.banner {
+    background-image: url('../../assets/imagens/venha-fazer-parte.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        width: 60%;
+    }
+}
+
+.cards {
+    
+}
