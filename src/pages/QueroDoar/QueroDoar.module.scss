@@ -1,0 +1,34 @@
+.section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        width: 80%;
+        text-align: center;
+        margin: 8% 0;
+    }
+}
+
+.boxForm {
+    width: 80%;
+    margin: 20px 0;
+    padding: 16px;
+    border: 4px solid #005695;
+    border-radius: 15px;
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            border: 2px solid #005695;
+            border-radius: 10px;
+            padding: 5px 10px;
+            margin: 10px 0;
+            outline: none;
+        }
+    }
+}
