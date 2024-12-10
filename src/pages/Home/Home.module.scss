@@ -11,6 +11,7 @@
 }
 
 .banner {
+    width: 100%;
     background-image: url('../../assets/imagens/venha-fazer-parte.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,4 +36,16 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
+
+@media screen and (min-width: 625px) {
+    .cards {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner {
+        background-image: url('../../assets/imagens/VENHA-FAZER-PARTE-maior.png');
+    }
 }

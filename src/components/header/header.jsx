@@ -23,6 +23,9 @@ export default function Header() {
                     </li>
                 </ul>
             </nav>
+            <div className={header.pesquisa}>
+                <input type="text" placeholder='O que você procura?' />
+            </div>
         </header>
     )
 }
